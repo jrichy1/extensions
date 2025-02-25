@@ -6,7 +6,7 @@ export const DEFAULT_MODEL: Model = {
   id: "default",
   updated_at: new Date().toISOString(),
   created_at: new Date().toISOString(),
-  name: "Haiku",
+  name: "Haiku 3.5",
   prompt: "You are a helpful assistant.",
   option: "claude-3-5-haiku-latest",
   temperature: "1",
@@ -15,6 +15,8 @@ export const DEFAULT_MODEL: Model = {
 };
 
 const option: Model["option"][] = [
+  "claude-3-7-sonnet-latest",
+  "claude-3-7-sonnet-20250219",
   "claude-3-5-haiku-latest",
   "claude-3-5-haiku-20241022",
   "claude-3-5-sonnet-latest",
